@@ -1,0 +1,25 @@
+.table_container{
+  & thead {
+    background-color: #444a6526;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  & th{
+    border: 1px solid #777;
+    padding: 20px 10px;
+    color: #000000;
+    min-width: 100px;
+
+  }
+  & td{
+    border: 1px solid #777;
+    padding: 20px;
+    max-height: 80px;
+  }
+  & td:first-child{
+   text-align: center;
+  }
+  & img {
+    width: 100%;
+  } 
+}
